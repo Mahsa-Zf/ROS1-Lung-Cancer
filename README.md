@@ -1,2 +1,37 @@
 # ROS1+ Lung Cancer
-This project aims to perform and visualize differential gene expression analysis for ROS1+ Lung Cancer
+
+This repository contains an interactive Shiny dashboard for the analysis and visualization of RNA-seq data from patient-derived cell lines (PDCLs) to investigate mechanisms of tyrosine kinase inhibitor (TKI) resistance in ROS1-positive lung cancer.
+
+### Project Overview
+
+The ros Jupyter Notebook using an **R kernel** explores, pre-processes and prepares the data related to ROS1+ lung cancer from 2 studies. ROS1 is a gene that encodes a receptor tyrosine kinase. Under normal circumstances, this protein helps regulate cell growth and division. However, in ROS1+ lung cancer, the ROS1 gene becomes abnormally fused with another gene (a fusion partner), leading to uncontrolled cell growth.
+
+The dashboard is designed to use the prepared data to interactively:
+
+- Explore transcriptomic changes in ROS1+ lung cancer cell lines after treatment with TKIs (crizotinib or entrectinib).
+- Identify genes that are up- or down-regulated in response to TKI treatment.
+- Facilitate discovery of new resistance mechanisms or potential biomarkers for treatment response.
+
+
+### Features
+
+- **Data Summary:** View and interact with summary tables of differential gene expression results.
+- **Plots:** Generate volcano and MA plots for visualizing significant gene expression changes.
+- **Gene Search:** Search for specific genes across all loaded datasets and compare their expression patterns.
+- **Boxplot Analysis:** Create comparative boxplots for selected genes between control and treatment groups using raw expression data.
+- **Metadata Browser:** Browse and download associated metadata files.
+- **Download Module:** Filter and download results based on significance thresholds.
+
+
+
+### Run the app:
+
+https://mzamani.shinyapps.io/ROS-Seq/
+
+### Contact
+
+For questions or contributions, please open an issue or contact the repository maintainer.
+
+**Note:**
+The file `Gene expression in ROS1.docx` provides additional background information and is not directly used by the dashboard application.
+
