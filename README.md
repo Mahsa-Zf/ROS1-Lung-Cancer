@@ -30,7 +30,12 @@ The dashboard is designed to use the prepared data to interactively:
 - **Metadata Browser:** Browse and download associated metadata files.
 - **Download Module:** Filter and download results based on significance thresholds.
 
-
+**Data Summary Columns Meaning:**
+- BaseMean: average normalized count value for this gene across all samples. It indicates the gene's overall expression level
+- log2FoldChange: This represents the effect size or how much expression changed with treatment. A value of 1 means the gene is 2 times more highly expressed in your treatment compared to the reference i.e. control.
+- IfcSE: standard error of the log2 fold change estimate.
+- stat: Wald statistic for the hypothesis test. Higher values indicate stronger evidence against the null hypothesis.
+- padj: adjusted p-value for multiple testing. It indicates the significance of the result after correcting for multiple comparisons.
 
 ## Run the app:
 
