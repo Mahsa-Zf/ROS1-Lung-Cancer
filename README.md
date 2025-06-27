@@ -6,6 +6,12 @@ This repository contains an interactive Shiny dashboard for the analysis and vis
 
 The ros Jupyter Notebook using an **R kernel** explores, pre-processes and prepares the data related to ROS1+ lung cancer from 2 studies. ROS1 is a gene that encodes a receptor tyrosine kinase. Under normal circumstances, this protein helps regulate cell growth and division. However, in ROS1+ lung cancer, the ROS1 gene becomes abnormally fused with another gene (a fusion partner), leading to uncontrolled cell growth.
 
+The studies used for the analysis are:
+- https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239844
+- https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE214715
+
+**The raw count data were directly downloaded from these pages.**
+
 The dashboard is designed to use the prepared data to interactively:
 
 - Explore transcriptomic changes in ROS1+ lung cancer cell lines after treatment with TKIs (crizotinib or entrectinib).
