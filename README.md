@@ -1,10 +1,12 @@
 # ROS1+ Lung Cancer
 
-This repository contains an interactive Shiny dashboard for the analysis and visualization of RNA-seq data from patient-derived cell lines (PDCLs) to investigate mechanisms of tyrosine kinase inhibitor (TKI) resistance in ROS1-positive lung cancer.
+ROS1 is a gene that encodes a receptor tyrosine kinase. Under normal circumstances, this protein helps regulate cell growth and division. However, in ROS1+ lung cancer, the ROS1 gene becomes abnormally fused with another gene (a fusion partner), leading to uncontrolled cell growth.
 
-### Project Overview
+This repository contains a jupyter notebook with an R kernel for analysis and an interactive Shiny dashboard for the visualization of the results of the RNA-seq data analysis from patient-derived cell lines (PDCLs). The goal is to investigate mechanisms of tyrosine kinase inhibitor (TKI) resistance in ROS1-positive lung cancer by assessing the up/down regulated genes.
 
-The ros Jupyter Notebook using an **R kernel** explores, pre-processes and prepares the data related to ROS1+ lung cancer from 2 studies. ROS1 is a gene that encodes a receptor tyrosine kinase. Under normal circumstances, this protein helps regulate cell growth and division. However, in ROS1+ lung cancer, the ROS1 gene becomes abnormally fused with another gene (a fusion partner), leading to uncontrolled cell growth.
+## Project Overview
+
+The ros Jupyter Notebook using an **R kernel** explores, pre-processes and prepares the data related to ROS1+ lung cancer from 2 studies. 
 
 The studies used for the analysis are:
 - https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE239844
@@ -19,7 +21,7 @@ The dashboard is designed to use the prepared data to interactively:
 - Facilitate discovery of new resistance mechanisms or potential biomarkers for treatment response.
 
 
-### Features
+## Features
 
 - **Data Summary:** View and interact with summary tables of differential gene expression results.
 - **Plots:** Generate volcano and MA plots for visualizing significant gene expression changes.
@@ -30,11 +32,11 @@ The dashboard is designed to use the prepared data to interactively:
 
 
 
-### Run the app:
+## Run the app:
 
 https://mzamani.shinyapps.io/ROS-Seq/
 
-### Contact
+## Contact
 
 For questions or contributions, please open an issue or contact the repository maintainer.
 
